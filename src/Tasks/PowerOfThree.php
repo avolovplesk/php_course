@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpCourse\Tasks;
+
 class PowerOfThree
 {
     public function isPowerOfThree(int $number): bool
