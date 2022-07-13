@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpCourse\Tasks;
+
 class FizzBuzz
 {
     public function fizBuz(int $begin, int $end): void
@@ -17,7 +19,9 @@ class FizzBuzz
                     $result .= "$i ";
                 }
             }
-            print_r("$result\n");
+            print_r($result);
+        } else {
+            throw new \InvalidArgumentException('Incorrect interval');
         }
     }
 }

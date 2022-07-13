@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpCourse\Tasks;
+
 class Balanced
 {
     public function isBalanced(string $str): bool

@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpCourse\Tasks;
+
 class Happy
 {
     public function isHappy(string $ticket): bool
