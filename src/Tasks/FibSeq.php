@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpCourse\Tasks;
+
 class FibSeq
 {
     public function fib(int $num): int

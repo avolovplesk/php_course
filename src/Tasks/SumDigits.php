@@ -1,10 +1,16 @@
 <?php
 
+namespace PhpCourse\Tasks;
+
 class SumDigits
 {
     public function addDigits(int $num): int
     {
         $digits = (string)$num;
+
+        if (strlen($digits) === 1) {
+            return $num;
+        }
 
         while (strlen($digits) > 1) {
             $sum = 0;

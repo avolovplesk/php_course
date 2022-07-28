@@ -1,5 +1,7 @@
 <?php
 
+namespace PhpCourse\Tasks;
+
 class Perfect
 {
     public function isPerfect(int $num): bool
